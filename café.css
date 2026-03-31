@@ -140,7 +140,7 @@ li:hover {
   display: flex;
   justify-content: center;
   gap: 30px;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 .drink-card a,
@@ -168,6 +168,10 @@ li:hover {
 
 .drink-card figure:hover {
   font-size: larger;
+}
+
+.drink-card img {
+  width: 180px;
 }
 
 .inter-img {

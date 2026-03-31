@@ -16,27 +16,23 @@
   </head>
 
   <body>
+    <!-- HERO SECTION -->
     <section class="hero" id="hero">
       <header class="navbar">
         <h1 class="logo">CaféMocha</h1>
-        <div class="dropdown">
-          <div class="dropdown-content">
-            <ul class="nav-bar">
-              <li><a href="#hero">Home</a></li>
-              <li><a href="#featured-drinks">Menu</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-        </div>
 
-        <!-- <nav>
-          <a href="#home">Home</a>
-          <a href="#menu">Menu</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-        </nav> -->
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+
+        <div class="dropdown" id="dropdown">
+          <ul class="nav-bar">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#featured-drinks">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
       </header>
+
       <div class="main-header">
         <div class="hero-content">
           <h2>Fresh Coffee. <br />Cozy Moments.</h2>
@@ -49,51 +45,42 @@
       </div>
     </section>
 
+    <!-- FEATURED DRINKS -->
     <section class="featured" id="featured-drinks">
       <h2 class="section-title">Featured Drinks</h2>
       <div class="drink-card">
-        <a href="#"
-          ><figure>
-            <img src="/images/latte.jpg" alt="Latte" width="150" height="100" />
+        <a href="#">
+          <figure>
+            <img src="/images/latte.jpg" alt="Latte" />
             <figcaption>Latte</figcaption>
-          </figure></a
-        >
+          </figure>
+        </a>
 
-        <a href="#"
-          ><figure>
-            <img
-              src="/images/cappuccino.jpg"
-              alt="Cappuccino"
-              width="150"
-              height="100"
-            />
+        <a href="#">
+          <figure>
+            <img src="/images/cappuccino.jpg" alt="Cappuccino" />
             <figcaption>Cappuccino</figcaption>
-          </figure></a
-        >
+          </figure>
+        </a>
 
-        <a href="#"
-          ><figure>
-            <img
-              src="/images/espresso.jpg"
-              alt="Espresso"
-              width="150"
-              height="100"
-            />
+        <a href="#">
+          <figure>
+            <img src="/images/espresso.jpg" alt="Espresso" />
             <figcaption>Espresso</figcaption>
-          </figure></a
-        >
+          </figure>
+        </a>
       </div>
     </section>
 
+    <!-- ABOUT -->
     <section class="about-section" id="about">
       <div class="clearfix">
         <img
           class="inter-img"
           src="/images/café_interior.jpg"
-          alt="café_interior"
+          alt="café interior"
         />
         <h2 class="about">About us</h2>
-        <br />
         <p>
           We brew the finest coffee using carefully selected beans, served in a
           warm and friendly environment.
@@ -101,6 +88,7 @@
       </div>
     </section>
 
+    <!-- TESTIMONIALS -->
     <section class="testimonials">
       <h2>What Customers Say</h2>
       <p>
@@ -108,15 +96,18 @@
       </p>
     </section>
 
+    <!-- FOOTER -->
     <footer>
       <div class="social-media">
-        <img src="/images/instagram.png" alt="instagram" href="#" />
-        <img src="/images/icon-facebook.svg" alt="facbook" href="#" />
-        <img src="/images/twitter.png" alt="twitter" href="#" />
+        <a href="#"><img src="/images/instagram.png" alt="instagram" /></a>
+        <a href="#"><img src="/images/icon-facebook.svg" alt="facebook" /></a>
+        <a href="#"><img src="/images/twitter.png" alt="twitter" /></a>
       </div>
 
       <p id="year"></p>
-      <script src="café.js"></script>
     </footer>
+
+    <!-- JS -->
+    <script src="café.js"></script>
   </body>
 </html>
